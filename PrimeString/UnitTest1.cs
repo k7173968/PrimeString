@@ -9,6 +9,11 @@ namespace PrimeString
         [TestMethod]
         public void TestMethod1()
         {
+            var kata = new Kata();
+            var abc = kata.PrimeString("myjinxin.myjinxin");
+            Assert.AreEqual(true,abc);
         }
+
     }
+
 }
